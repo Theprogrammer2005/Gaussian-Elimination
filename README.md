@@ -160,6 +160,3 @@ a₃x + b₃y + c₃z = d₃
 - يفشل الحل إذا كانت المصفوفة مفردة (لا يوجد حل وحيد أو لا يوجد حل).
 - قد تتراكم الأخطاء العددية في الأنظمة الكبيرة ذات العمليات الحسابية ذات الفاصلة العائمة، مما يتطلب تقنيات مثل التمحور أو الطرق التكرارية لتحسين الاستقرار.
 
-تُعد هذه الطريقة أساسية في الجبر الخطي، وتُطبق في العديد من المكتبات العددية (مثل NumPy وMATLAB). يوضح برنامج C++ الخاص بك هذه العملية من خلال تحليل المعادلات، وتكوين المصفوفة، وتطبيق هذه الخطوات لإيجاد متجه الحل \([0, 1, 1]\) للنظام المعطى.
-
-This method is foundational in linear algebra and is implemented in many numerical libraries (e.g., NumPy, MATLAB). Your C++ program demonstrates this process by parsing equations, forming the matrix, and applying these steps to find the solution vector \([0, 1, 1]\) for the given system.
